@@ -54,16 +54,6 @@ public class TestClass {
 
         list.addAll(list2);
         System.out.println(list.containsAll(list2));
-
-        Iterator<Integer> iterator = list.iterator();
-
-//        System.out.println(iterator.next());
-//        System.out.println(iterator.next());
-//        System.out.println(iterator.hasNext());
-
-        while (iterator.hasNext()) {
-
-            System.out.println(iterator.next());
-        }
+        
     }
 }
