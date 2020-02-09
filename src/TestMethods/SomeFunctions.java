@@ -4,6 +4,8 @@ public class SomeFunctions {
 
     public static void main(String[] args) {
 
+//        Declare local variables:
+
         int a = 13;
         int b = 3;
         int sum;
@@ -27,7 +29,12 @@ public class SomeFunctions {
         sayHello("ILYA");
 
         showSumToPerson("Ilysha", 3, 5, 999);
+
+        boolean results = showSum(1, 22, 333);
+        System.out.println(results);
     }
+
+//    Declare method, that summ some variables:
 
     protected static int getSumm(int x, int y) {
 
@@ -37,12 +44,18 @@ public class SomeFunctions {
         return sum;
     }
 
-    private static void showSum(int x, int y, int z) {
+//    That method show true/false variables:
+
+    private static boolean showSum(int x, int y, int z) {
 
         int sum = x + y + z;
 
         System.out.println(sum);
+
+        return true;
     }
+
+//    This method is returning saying something:
 
     public static void saySmthng() {
 
@@ -52,11 +65,15 @@ public class SomeFunctions {
         System.out.println("Hello");
     }
 
+//    That method is saying "Hello"< and doesnt return anything:
+
     private static void sayHello(String name) {
 
         System.out.println("Hello, " + name + "!");
     }
 
+//    That method shows name ofperson and sum from three variables:
+    
     static void showSumToPerson(String name, int a, int b, int c) {
 
         System.out.println("Start of programm!");
