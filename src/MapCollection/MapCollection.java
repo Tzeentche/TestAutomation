@@ -40,5 +40,12 @@ public class MapCollection {
         System.out.println(mapa.get(2));
         mapa.put(2, "Purple");
         System.out.println(mapa.get(2));
+
+        Map<String, String> mapa2 = new HashMap<>();
+        mapa2.put("Filipp", "Gnida");
+        mapa2.put("Fedia", "Krasavchil");
+
+        System.out.println();
+        System.out.println(mapa2.get("Filipp"));
     }
 }
