@@ -40,7 +40,7 @@ public class Lesson24 {
         if (b == 0) {
 
 //            Third method:
-            
+
             throw new ArithmeticException("Cannnot devide by zero!");
         }
     }
