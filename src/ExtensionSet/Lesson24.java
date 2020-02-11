@@ -1,8 +1,12 @@
 package ExtensionSet;
 
+//      Three methods to output exceptions:
+
 public class Lesson24 {
 
     public static void main(String[] args) {
+
+//        First method:
 
         try {
             devide(10, 0);
@@ -15,6 +19,8 @@ public class Lesson24 {
     }
 
     public static void devide(int a, int b) {
+
+//        Usual method:
 
         try {
             System.out.println("Result is: " + a/b);
@@ -33,7 +39,9 @@ public class Lesson24 {
 
         if (b == 0) {
 
-            throw new ArithmeticException("Cannot devide by zero!");
+//            Third method:
+            
+            throw new ArithmeticException("Cannnot devide by zero!");
         }
     }
 }
