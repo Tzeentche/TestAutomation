@@ -2,6 +2,8 @@ package Classes;
 
 public class Car {
 
+//    Declare global variables:
+
     int height;
     int width;
     int lenght;
@@ -11,10 +13,14 @@ public class Car {
     int speed;
     int maxSpeed = 260;
 
+//    Create first method:
+
     public void addWeight(int weight) {
 
         this.weight += weight;
     }
+
+//    Create second method:
 
     public void drive(int speed) {
 
