@@ -28,5 +28,13 @@ public class ClassesAndElse {
 
         car2.drive(120);
         car3.drive(150);
+
+        Car car4 = new Car("Black");
+
+        System.out.println("Car color is: " + car4.color);
+
+        Car car5 = new Car("red", 2100, 2000,5100);
+
+        System.out.println(car5.color + " " + car5.height + " " + car5.width + " " + car5.lenght);
     }
 }
