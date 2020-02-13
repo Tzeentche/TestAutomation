@@ -2,6 +2,12 @@ package Classes;
 
 public class Car {
 
+    static int var = 10;
+    static void method() {
+
+        System.out.println("Static metthod!");
+    }
+
     public Car(){
 
         System.out.println("New car created!");
