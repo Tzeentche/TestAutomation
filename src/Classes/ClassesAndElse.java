@@ -36,5 +36,18 @@ public class ClassesAndElse {
         Car car5 = new Car("red", 2100, 2000,5100);
 
         System.out.println(car5.color + " " + car5.height + " " + car5.width + " " + car5.lenght);
+
+        System.out.println(Car.var);
+
+        Car.var = 100;
+
+        System.out.println(Car.var);
+        System.out.println(car1.var);
+        System.out.println(car2.var);
+        System.out.println(car3.var);
+
+        Car.method();
+
+        String.format("New is string", "string");
     }
 }
