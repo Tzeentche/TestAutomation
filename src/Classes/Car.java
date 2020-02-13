@@ -2,6 +2,25 @@ package Classes;
 
 public class Car {
 
+    public Car(){
+
+        System.out.println("New car created!");
+    }
+
+    public Car(String color){
+
+        this.color = color;
+    }
+
+    public Car(String color, int height, int width, int length){
+
+        this.color = color;
+        this.height = height;
+        this.width = width;
+        this.lenght = length;
+
+    }
+
 //    Declare global variables:
 
     int height;
